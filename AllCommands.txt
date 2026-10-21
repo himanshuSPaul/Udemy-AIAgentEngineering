@@ -1,0 +1,5 @@
+> python -m venv .venv                                                                                                
+PS D:\Learning\Git\AIAgentDevelopement\Udemy-AIAgentEngineering
+> .venv\Scripts\activate                 
+(.venv) (.venv) D:\Learning\Git\AIAgentDevelopement\Udemy-AIAgentEngineering
+> pip install python-dotenv openai  
