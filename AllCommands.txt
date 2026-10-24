@@ -1,5 +1,35 @@
+------------------------------------------------------------------------------------------
+------------------------------------------- Ollama ---------------------------------------
+------------------------------------------------------------------------------------------
+
+-- To see All models available locally in Ollama
+> ollama list
+NAME          ID              SIZE      MODIFIED
+qwen3:1.7b    8f68893c685c    1.4 GB    2 days ago
+
+
+--To see all model running in Ollama
+> ollama ps
+NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL
+
+
+--To run a model locally in Ollama
+> ollama run qwen3:1.7b
+>>> 
+
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------- Python ---------------------------------------
+------------------------------------------------------------------------------------------
+
+--
 > python -m venv .venv                                                                                                
 PS D:\Learning\Git\AIAgentDevelopement\Udemy-AIAgentEngineering
+
+
 > .venv\Scripts\activate                 
 (.venv) (.venv) D:\Learning\Git\AIAgentDevelopement\Udemy-AIAgentEngineering
+
+
 > pip install python-dotenv openai  
